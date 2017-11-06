@@ -22,6 +22,28 @@
   margin-top: 10px;
 }
 
+.App-repos-wrapper {
+  margin-top: 10px;
+}
+
+.App-repos {
+  width: 650px;
+  margin: 10px auto; 
+  text-align: left;
+}
+
+.App-repo {
+  padding: 10px;
+}
+
+.App-repo:nth-child(odd) {
+  background-color: #999;
+}
+
+button {
+  margin: 10px 0;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
